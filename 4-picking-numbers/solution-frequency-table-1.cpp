@@ -12,10 +12,10 @@ int main()
     while (cin >> i)
         freq[i]++;
     
-	auto count = 0;
-	for (auto i=1; i<100; ++i)
-	{
-		count = max(count, freq[i]+freq[i-1]);
-	}
-	cout << count;	
+    auto count = 0;
+    for (auto i=1; i<100; ++i)
+    {
+    	count = max(count, freq[i]+freq[i-1]);
+    }
+    cout << count;	
 }
