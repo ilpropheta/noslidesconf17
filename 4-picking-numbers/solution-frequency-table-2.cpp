@@ -15,5 +15,5 @@ int main()
     cout << inner_product(next(begin(freq)), end(freq),
                           begin(freq), 0,
                           [](int l, int r){ return max(l, r); }, 
-						  plus<int>{});
+			  plus<int>{});
 }
