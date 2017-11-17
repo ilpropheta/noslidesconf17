@@ -10,7 +10,7 @@ int main()
     vector<int> v(N);
     copy_n(istream_iterator<int>(cin), N, begin(v));
     
-	sort(begin(v), end(v));
+    sort(begin(v), end(v));
     
     auto cnt = 0;
     for (auto i : v)
