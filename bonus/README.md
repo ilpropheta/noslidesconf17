@@ -22,7 +22,7 @@ The code above could be rewritten in terms of the **zip | map | fold** pattern, 
 
 Another solution - mutating the string - consists in using `std::erase`:
 
-cout << distance(unique(begin(s), end(s)), end(s)) << endl;
+    cout << distance(unique(begin(s), end(s)), end(s)) << endl;
 
 ## Roman Numbers
 
@@ -52,7 +52,7 @@ The classical approach consists in rolling an *if-cascade*:
         return roman;
     }
 
-There are many possible better solutions for this problem. I like to think the code above as kind of an "interpolation": everytime we have to find the "best" position for n into the possible breakpoint values. For instance, suppose we have to covert 17: we find that n is greater than 10 but lesser than 40. Hence the algorithm falls into `else if (n >= 10)`. Then `n` becomes 7, falling into `else if (n >= 5)` and so on. That's very close to an interpolation.
+There are many possible better solutions for this problem. I like to think the code above as an "interpolation": everytime we have to find the "best" position for n into the possible breakpoint values. For instance, suppose we have to covert 17: we find that n is greater than 10 but lesser than 40. Hence the algorithm falls into `else if (n >= 10)`. Then `n` becomes 7, falling into `else if (n >= 5)` and so on. That's very close to an interpolation.
 
 We can exploit this fact by using a **binary search**. For instance, we can use a map:
 
