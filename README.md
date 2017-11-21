@@ -4,7 +4,7 @@ Material and examples of my NoSlidesConf17 hands-on session (Nov 25 2017 - Bolog
 
 [Recommended: first solve the challenges here on HackerRank](http://hackerrank.com/noslidesconf17)
 
-I'd love hearing from you! Share your solutions dropping some lines to the **Discussions** tabs:
+I'd love hearing from you! Share your solutions into the **Discussions** tabs:
 * [SimpleArraySum](https://www.hackerrank.com/contests/noslidesconf17/challenges/simple-array-sum/forum)
 * [Pairs](https://www.hackerrank.com/contests/noslidesconf17/challenges/pairs/forum)
 * [Picking Numbers](https://www.hackerrank.com/contests/noslidesconf17/challenges/picking-numbers/forum)
