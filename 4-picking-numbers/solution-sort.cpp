@@ -29,8 +29,7 @@ int main()
             tail++;
         }
     }
-    if (selected == 0)
-        selected = n;
+    selected = max(selected, (int)distance(tail, head));
     
     cout << selected;
 }
